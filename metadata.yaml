@@ -2,7 +2,7 @@ homepage: "https://www.sabatka.net"
 documentation: "https://github.com/pavelsabatka/gtm-heureka"
 versions:
   # Latest version
-  - sha: 
+  - sha: c91b678e66d64991b6e2ee2cd3ad4aed5439652c
     changeNotes: initial commit
     
   # Older versions
