@@ -1,9 +1,9 @@
 # Conversion measurement for Arukereso.hu
 
-[HU](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README.md) | [EN](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README-EN.md) | [CZ](https://github.com/pavelsabatka/gtm-heureka/blob/master/README.md) | [Changelog](https://github.com/pavelsabatka/gtm-arukereso/blob/master/CHANGELOG.md)
+[HU](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README.md) | [EN](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README-EN.md) | [CZ](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README.md) | [Changelog](https://github.com/pavelsabatka/gtm-arukereso/blob/master/CHANGELOG.md)
 
 Google Tag Manager template for Arukereso.hu conversion tracking.
-Measures conversions by [Arukereso.hu](https://www.arukereso.hu/static/konverziomeres.html)
+Measures conversions by [Arukereso.hu](https://www.arukereso.hu/static/conversion-measurement.html)
 
 
 # Configuration
@@ -16,7 +16,7 @@ In both codes you need to correctly set the country where you have your Arukeres
 ## Product detail
 To set it up, just set the country and code type as "Item detail".
 
-![Configuring GTM template for Arukereso.hu product detail code](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-item-detail.png)
+![Configuring GTM template for Arukereso.hu product detail code](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-product-detail-page.png)
 
 ## Conversion code
 In the template you need to set
@@ -31,25 +31,25 @@ If a transaction object is inserted, as much data as possible is loaded from it 
 
 ### Examples
 1. Retrieve from variables
-![Configuring GTM templates for Arukereso.hu conversion code](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-purchase-rows.png)
+![Configuring GTM templates for Arukereso.hu conversion code](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-purchase-rows.png)
 
 2. Using the Transaction object
 Data is [in purchase format for GA4](https://developers.google.com/analytics/devguides/collection/ga4/set-up-ecommerce)
-![Configuring GTM template for Arukereso.hu conversion code - object](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-purchase-object.png)
+![Configuring GTM template for Arukereso.hu conversion code - object](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-purchase-object.png)
 
 3. Entering additional costs
-![GTM template configuration for Arukereso.hu conversion code - additional costs](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-purchase-additiona-items.png)
+![GTM template configuration for Arukereso.hu conversion code - additional costs](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-purchase-additiona-items.png)
 
 
 ### Debugging
 In the GTM Debug Mode, find the event where the Arukereso.hu measurement tag is triggered. You can then view all passed parameters in the console.
 When the data has been sent to Arukereso.hu, the `success` status must be given at the end.
-![Debugging GTM template for Arukereso.hu](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-debug.png)
+![Debugging GTM template for Arukereso.hu](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-debug.png)
 
 
 ## Consent
 The template does not handle consent status.
-Arukereso.hu states [in the documentation](https://sluzby.heureka.cz/napoveda/mereni-konverzi/) that codes should be run without consent - it follows the consent granted on the Arukereso.hu site. However, consult your lawyers for this solution, I am not responsible for its correctness.
+Arukereso.hu states [in the documentation](https://www.arukereso.hu/static/conversion-measurement.html) that codes should be run without consent - it follows the consent granted on the Arukereso.hu site. However, consult your lawyers for this solution, I am not responsible for its correctness.
 
 # Other
 

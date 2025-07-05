@@ -1,9 +1,9 @@
 # Konverziós mérés az Arukereso.hu számára
 
-[HU](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README.md) | [EN](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README-EN.md) | [CZ](https://github.com/pavelsabatka/gtm-heureka/blob/master/README.md) | [Changelog](https://github.com/pavelsabatka/gtm-arukereso/blob/master/CHANGELOG.md)
+[HU](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README.md) | [EN](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README-EN.md) | [CZ](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README.md) | [Changelog](https://github.com/pavelsabatka/gtm-arukereso/blob/master/CHANGELOG.md)
 
 Google Tag Manager sablon az Arukereso.hu konverziókövetéshez.
-Konverziók mérése [Arukereso.hu](https://www.arukereso.hu/static/konverziomeres.html)
+Konverziók mérése [Arukereso.hu](https://www.arukereso.hu/static/conversion-measurement.html)
 
 
 # Konfiguráció
@@ -16,7 +16,7 @@ Mindkét kódban helyesen kell beállítani az országot, ahol a Arukereso.hu fi
 ## Termék részletei
 A beállításhoz csak állítsa be az országot és a kód típusát "Tétel részlete".
 
-![GTM sablon beállítása a Arukereso.hu termék részlet kódhoz](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-item-detail.png)
+![GTM sablon beállítása a Arukereso.hu termék részlet kódhoz](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-product-detail-page.png)
 
 ## Konverziós kód
 A sablonban be kell állítanod, hogy
@@ -31,25 +31,25 @@ Ha egy tranzakciós objektum kerül beillesztésre, akkor a lehető legtöbb ada
 
 ### Példák
 1. Letöltés változókból
-![GTM sablonok konfigurálása Arukereso.hu konverziós kódhoz](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-purchase-rows.png)
+![GTM sablonok konfigurálása Arukereso.hu konverziós kódhoz](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-purchase-rows.png)
 
 2. A Tranzakció objektum használata
 Az adatok [GA4 vásárlási formátumban](https://developers.google.com/analytics/devguides/collection/ga4/set-up-ecommerce)
-![GTM sablon konfigurálása Arukereso.hu konverziós kódhoz - objektum](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-purchase-object.png)
+![GTM sablon konfigurálása Arukereso.hu konverziós kódhoz - objektum](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-purchase-object.png)
 
 3. További költségek megadása
-![GTM sablon konfiguráció a Arukereso.hu konverziós kódhoz - további költségek](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-purchase-additiona-items.png)
+![GTM sablon konfiguráció a Arukereso.hu konverziós kódhoz - további költségek](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-purchase-additiona-items.png)
 
 
 ### Hibakeresés
 A GTM hibakeresési módban keresse meg azt az eseményt, ahol a Arukereso mérési tag kiváltásra kerül. Ezután az összes átadott paramétert megtekintheti a konzolon.
 Amikor az adatok elküldésre kerültek a Arukereso felé, a végén meg kell adni a `siker` állapotot.
-![GTM sablon hibakeresés a Arukereso.hu számára](https://github.com/pavelsabatka/gtm-heureka/blob/main/img/heureka-debug.png)
+![GTM sablon hibakeresés a Arukereso.hu számára](https://github.com/pavelsabatka/gtm-arukereso/blob/main/img/arukereso-debug.png)
 
 
 ## Hozzájárulás
 A sablon nem kezeli a hozzájárulás állapotát.
-A Arukereso azt állítja [a dokumentációban](https://sluzby.heureka.cz/napoveda/mereni-konverzi/), hogy a kódokat hozzájárulás nélkül kell futtatni - a Arukereso oldalán megadott hozzájárulást követi. Ezzel a megoldással kapcsolatban azonban konzultáljon a jogászokkal, nem vállalok felelősséget a helyességéért.
+A Arukereso azt állítja [a dokumentációban](https://www.arukereso.hu/static/conversion-measurement.html), hogy a kódokat hozzájárulás nélkül kell futtatni - a Arukereso oldalán megadott hozzájárulást követi. Ezzel a megoldással kapcsolatban azonban konzultáljon a jogászokkal, nem vállalok felelősséget a helyességéért.
 
 # Other
 
