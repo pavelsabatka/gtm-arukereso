@@ -1,5 +1,6 @@
-homepage: "https://www.sabatka.net"
-documentation: "https://github.com/pavelsabatka/gtm-heureka"
+homepage: "https://www.sabatka.net/en/"
+documentation: "https://github.com/pavelsabatka/gtm-arukereso"
+
 versions:
   # Latest version
   - sha: 1b39b972d3081c42202a030e03f05f491476551a
