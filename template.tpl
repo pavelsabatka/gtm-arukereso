@@ -14,7 +14,7 @@ ___INFO___
     "ANALYTICS",
     "ADVERTISING"
   ],
-  "description": "Conversion code for Arukereso.hu\nhttps://sluzby.heureka.cz/napoveda/mereni-konverzi/",
+  "description": "Conversion code for Arukereso.hu\nhttps://www.arukereso.hu/static/conversion-measurement.html",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
