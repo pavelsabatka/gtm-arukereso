@@ -9,7 +9,7 @@ Google may provide), as modified from time to time.
 ___INFO___
 
 {
-  "displayName": "Arukereso - Development",
+  "displayName": "Arukereso",
   "categories": [
     "ANALYTICS",
     "ADVERTISING"
