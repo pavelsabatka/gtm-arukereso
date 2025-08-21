@@ -3,11 +3,14 @@ documentation: "https://github.com/pavelsabatka/gtm-arukereso"
 
 versions:
   # Latest version
-  - sha: d11001734649c12c035b587f44b3a22d181117d9
-    changeNotes: minor fixes in metadata yaml
+  - sha: bc528d68c26fda146ba9662d85574c7b257c722a
+    changeNotes: update template name
   
     
   # Older versions  
+  - sha: d11001734649c12c035b587f44b3a22d181117d9
+    changeNotes: minor fixes in metadata yaml
+
   - sha: 1b39b972d3081c42202a030e03f05f491476551a
     changeNotes: minor changes
   
