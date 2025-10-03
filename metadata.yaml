@@ -3,11 +3,14 @@ documentation: "https://github.com/pavelsabatka/gtm-arukereso"
 
 versions:
   # Latest version
-  - sha: bc20fe29945078d8d9c6467112cbd1eaf3a75c1a
-    changeNotes: updated LICENCE file
+  - sha: 5710eedc496b37b6d2a628e201283713d4da766b
+    changeNotes: fix - adding HU country code
   
     
   # Older versions  
+  - sha: bc20fe29945078d8d9c6467112cbd1eaf3a75c1a
+    changeNotes: updated LICENCE file
+
   - sha: bc528d68c26fda146ba9662d85574c7b257c722a
     changeNotes: update template name
   
