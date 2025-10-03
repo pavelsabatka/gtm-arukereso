@@ -4,6 +4,10 @@
 
 # Verziók
 
+## 3. 10. 2025
+* Fix - adding forgotten HU country code
+
+
 ## 5. 7. 2025
 
 * Bevezető commit

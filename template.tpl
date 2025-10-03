@@ -418,7 +418,7 @@ if (data.code_type === 'thank_you') {
 
 setInWindow('ROIDataObject', 'arukereso', true);
 const arukereso = createArgumentsQueue('arukereso', 'arukereso.q');
-setInWindow('arukereso.c', data.country, true);
+setInWindow('arukereso.c', 'hu', true);
 
 let error = add_data();
 if (!error) {
@@ -678,13 +678,13 @@ scenarios:
   code: |-
     runCode(mockData);
     assertApi('setInWindow').wasCalledWith('ROIDataObject', 'arukereso', true);
-    assertApi('setInWindow').wasCalledWith('arukereso.c', 'cz', true);
+    assertApi('setInWindow').wasCalledWith('arukereso.c', 'hu', true);
 - name: Product page - script is loaded
   code: |-
     expected_url = 'https://www.arukereso.hu/ocm/sdk.js?version=2&page=product_detail';
     mockData = {
       'code_type': 'product_detail',
-      'country': 'cz'
+      'country': 'hu'
     };
     runCode(mockData);
     assertApi('injectScript').wasCalled();
@@ -697,7 +697,7 @@ scenarios:
     \ '12345']);\nassertThat(passedData[2]).isEqualTo(['add_product', '123', 'Okurka',\
     \ '21.00', '1']);\nassertThat(passedData[3]).isEqualTo(['add_product', '456',\
     \ 'Brambora', '3.50', '5']);\nassertThat(passedData[4]).isEqualTo(['set_total_vat',\
-    \ '38.50']);\nassertThat(passedData[5]).isEqualTo(['set_currency', 'CZK']);\n\
+    \ '38.50']);\nassertThat(passedData[5]).isEqualTo(['set_currency', 'EUR']);\n\
     assertThat(passedData[6]).isEqualTo(['send', 'Order']);"
 - name: Purchase - basic - with additional items
   code: |-
@@ -728,7 +728,7 @@ scenarios:
     assertThat(passedData[6]).isEqualTo(['add_additional_item', 'error', '0.00', '1']);
 
     assertThat(passedData[7]).isEqualTo(['set_total_vat', '87.50']);
-    assertThat(passedData[8]).isEqualTo(['set_currency', 'CZK']);
+    assertThat(passedData[8]).isEqualTo(['set_currency', 'EUR']);
     assertThat(passedData[9]).isEqualTo(['send', 'Order']);
 - name: Purchase - from transaction object - GA4
   code: |-
@@ -880,7 +880,7 @@ scenarios:
     \ '12345']);\nassertThat(passedData[2]).isEqualTo(['add_product', '123', 'Okurka',\
     \ '21.00', '1']);\nassertThat(passedData[3]).isEqualTo(['add_product', '456',\
     \ 'Brambora', '3.50', '5']);\nassertThat(passedData[4]).isEqualTo(['set_total_vat',\
-    \ '38.50']);\nassertThat(passedData[5]).isEqualTo(['set_currency', 'CZK']);\n\
+    \ '38.50']);\nassertThat(passedData[5]).isEqualTo(['set_currency', 'EUR']);\n\
     assertThat(passedData[6]).isEqualTo(['send', 'Order']);"
 - name: Error - Purchase - Products with same ID
   code: |
@@ -1120,7 +1120,7 @@ setup: |-
     'code_type': 'thank_you',
     'order_id': 12345,
     'order_revenue': 38.50,
-    'currency_code': 'CZK',
+    'currency_code': 'EUR',
     'products': [{
       'id': 123,
       'name': 'Okurka',
@@ -1131,8 +1131,7 @@ setup: |-
       'name': 'Brambora',
       'price': 3.5,
       'quantity': 5
-    }],
-    'country': 'cz'
+    }]
   };
 
   // object from documentation
