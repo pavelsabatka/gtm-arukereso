@@ -333,7 +333,7 @@ if (data.code_type === 'thank_you') {
     for (let i = 0; i < products.length; i++) {
       id = makeString(products[i].id || products[i].item_id || '');
       name = makeString(products[i].name || products[i].item_name || '');
-      price = products[i].pocketPrice || products[i].price || 0;
+      price = products[i].price || products[i].pocketPrice || 0;
       price = round(price);
       quantity = products[i].quantity || 1;
       
