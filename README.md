@@ -1,6 +1,6 @@
 # Konverziós mérés az Arukereso.hu számára
 
-[HU](https://github.com/pavelsabatka/gtm-arukereso/blob/main/README.md) | [EN](https://github.com/pavelsabatka/gtm-arukereso/blob/main/README-EN.md) | [CZ]([https://www.sabatka.net/en/gtm-template-heureka-cz-and-sk/) | [Changelog](https://github.com/pavelsabatka/gtm-arukereso/blob/master/CHANGELOG.md)
+[HU](https://github.com/pavelsabatka/gtm-arukereso/blob/main/README.md) | [EN](https://github.com/pavelsabatka/gtm-arukereso/blob/main/README-EN.md) | [CZ](https://www.sabatka.net/en/gtm-template-heureka-cz-and-sk/) | [Changelog](https://github.com/pavelsabatka/gtm-arukereso/blob/master/CHANGELOG.md)
 
 Google Tag Manager sablon az Arukereso.hu konverziókövetéshez.
 Konverziók mérése [Arukereso.hu](https://www.arukereso.hu/static/conversion-measurement.html)
