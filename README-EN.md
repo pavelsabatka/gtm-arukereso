@@ -1,6 +1,6 @@
 # Conversion measurement for Arukereso.hu
 
-[HU](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README.md) | [EN](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README-EN.md) | [CZ](https://github.com/pavelsabatka/gtm-arukereso/blob/master/README.md) | [Changelog](https://github.com/pavelsabatka/gtm-arukereso/blob/master/CHANGELOG.md)
+[HU](https://github.com/pavelsabatka/gtm-arukereso/blob/main/README.md) | [EN](https://github.com/pavelsabatka/gtm-arukereso/blob/main/README-EN.md) | [CZ](https://github.com/pavelsabatka/gtm-arukereso/blob/main/README.md) | [Changelog](https://github.com/pavelsabatka/gtm-arukereso/blob/main/CHANGELOG.md)
 
 Google Tag Manager template for Arukereso.hu conversion tracking.
 Measures conversions by [Arukereso.hu](https://www.arukereso.hu/static/conversion-measurement.html)
